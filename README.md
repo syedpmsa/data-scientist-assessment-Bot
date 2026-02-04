@@ -5,7 +5,7 @@ Telegram RAG Bot
 A lightweight Retrieval-Augmented Generation (RAG) bot built with Python. This bot uses a local vector database to answer questions based on a specific set of documents provided in the `data/` folder.
 
 ##  Features
-* **Local RAG:** Uses `sqlite-vec` for fast, local vector search.
+* **Local RAG:Uses `db-sqlite3` for fast, local vector search.
 * **Privacy-First:** Powered by **Ollama**, so your data and queries stay on your machine.
 * **Smart Retrieval:** Finds the most relevant document snippets before answering.
 * **Source Citation:** Tells the user which file it used to generate the answer.
