@@ -4,7 +4,7 @@ from rag.retriever import retrieve
 from prompts import build_prompt
 from llm import call_llm
 
-BOT_TOKEN = "8248102492:AAGSfpssOacfHR0FyTtxs65ny12Dk_UBUSM"
+BOT_TOKEN = "8248102492:AAGSfpssOacfHR0FyTtxvfdgdfsgs65ny12Dk_UBUSM"
 
 async def ask(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = " ".join(context.args)
@@ -32,3 +32,4 @@ app.add_handler(CommandHandler("help", help_command))
 
 print("🤖 Bot is running...")
 app.run_polling()
+
