@@ -31,7 +31,7 @@ Before running the bot, ensure you have the following installed:
 
 1. **Clone or create the project directory:**
    ```bash
-
+https://github.com/syedpmsa/data-scientist-assessment-Bot.git
 
 pip install -r requirements.txt
 Run the ingestion script to create embeddings:
